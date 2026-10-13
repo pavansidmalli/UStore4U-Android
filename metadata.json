@@ -1,0 +1,6 @@
+{
+  "name": "U Store",
+  "description": "Premium luxury watch shopping app for U Store WooCommerce store",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

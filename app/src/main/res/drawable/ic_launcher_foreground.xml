@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Watch Straps top and bottom -->
+    <path
+        android:pathData="M47,17 L61,17 L59,24 L49,24 Z"
+        android:fillColor="#8C7A5B" />
+    <path
+        android:pathData="M49,63 L59,63 L61,70 L47,70 Z"
+        android:fillColor="#8C7A5B" />
+
+    <!-- Outer Watch Bezel / Case (Obsidian Black with Gold Inner Rim) -->
+    <path
+        android:pathData="M54,23 A20.5,20.5 0 1 0 54,64 A20.5,20.5 0 1 0 54,23 Z"
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#121212"
+        android:strokeWidth="2.8" />
+
+    <!-- Inner Dial Bezel in Champagne Gold -->
+    <path
+        android:pathData="M54,26.5 A17,17 0 1 0 54,60.5 A17,17 0 1 0 54,26.5 Z"
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#D4AF37"
+        android:strokeWidth="0.9" />
+
+    <!-- Watch Crown at 3 o'clock -->
+    <path
+        android:pathData="M74.5,42 L77,42 A1,1 0 0 1 78,43 L78,44.5 A1,1 0 0 1 77,45.5 L74.5,45.5 Z"
+        android:fillColor="#D4AF37" />
+
+    <!-- Hour Markers (12, 3, 6, 9) in Warm Gold -->
+    <path
+        android:pathData="M53.2,28 L53.2,31 M54.8,28 L54.8,31"
+        android:strokeColor="#D4AF37"
+        android:strokeWidth="1.0" />
+    <path
+        android:pathData="M67.5,43.5 L70.5,43.5"
+        android:strokeColor="#D4AF37"
+        android:strokeWidth="1.0" />
+    <path
+        android:pathData="M54,56 L54,59"
+        android:strokeColor="#D4AF37"
+        android:strokeWidth="1.0" />
+    <path
+        android:pathData="M37.5,43.5 L40.5,43.5"
+        android:strokeColor="#D4AF37"
+        android:strokeWidth="1.0" />
+
+    <!-- Brand Serif 'U' Monogram inside the dial -->
+    <path
+        android:pathData="M45,34 L50.5,34 L50.5,35.6 L48.5,35.6 L48.5,43.5 C48.5,46.5 50.8,48.8 54,48.8 C57.2,48.8 59.5,46.5 59.5,43.5 L59.5,35.6 L57.5,35.6 L57.5,34 L63,34 L63,35.6 L61,35.6 L61,43.5 C61,48.2 57.8,51 54,51 C50.2,51 47,48.2 47,43.5 L47,35.6 L45,35.6 Z"
+        android:fillColor="#121212" />
+
+    <!-- Official "U STORE" wordmark typography below emblem -->
+    <!-- U -->
+    <path
+        android:pathData="M27.5,75 L31,75 L31,76 L29.8,76 L29.8,79.5 C29.8,80.8 30.6,81.6 31.8,81.6 C33,81.6 33.8,80.8 33.8,79.5 L33.8,76 L32.5,76 L32.5,75 L36,75 L36,76 L34.8,76 L34.8,79.5 C34.8,81.6 33.4,82.5 31.8,82.5 C30.2,82.5 28.8,81.6 28.8,79.5 L28.8,76 L27.5,76 Z"
+        android:fillColor="#121212" />
+    <!-- S -->
+    <path
+        android:pathData="M42.2,76.2 C41.5,75.5 40.4,75.1 39.4,75.5 C38.5,75.9 38.3,76.7 38.6,77.4 C39,78.1 40,78.4 40.8,78.8 C41.8,79.3 42.4,80.1 42.2,81 C42,82 41,82.7 39.7,82.7 C38.4,82.7 37.4,82.1 36.9,81.4 L37.9,80.8 C38.3,81.4 38.9,81.7 39.7,81.7 C40.4,81.7 41,81.3 41.1,80.7 C41.2,80.1 40.8,79.6 39.9,79.2 C38.8,78.7 37.3,78.2 37.4,76.9 C37.5,75.8 38.5,74.8 39.8,74.8 C40.9,74.8 41.8,75.3 42.5,75.9 Z"
+        android:fillColor="#121212" />
+    <!-- T -->
+    <path
+        android:pathData="M43.5,75 L49.5,75 L49.5,76.1 L47.1,76.1 L47.1,82.5 L45.9,82.5 L45.9,76.1 L43.5,76.1 Z"
+        android:fillColor="#121212" />
+    <!-- O -->
+    <path
+        android:pathData="M54,74.8 C56.2,74.8 57.8,76.5 57.8,78.65 C57.8,80.8 56.2,82.5 54,82.5 C51.8,82.5 50.2,80.8 50.2,78.65 C50.2,76.5 51.8,74.8 54,74.8 Z M54,75.9 C52.6,75.9 51.5,77.1 51.5,78.65 C51.5,80.2 52.6,81.4 54,81.4 C55.4,81.4 56.5,80.2 56.5,78.65 C56.5,77.1 55.4,75.9 54,75.9 Z"
+        android:fillColor="#121212" />
+    <!-- R -->
+    <path
+        android:pathData="M59.5,75 L64.2,75 C65.5,75 66.3,75.7 66.3,76.8 C66.3,77.7 65.6,78.3 64.7,78.5 L66.5,82.5 L65.1,82.5 L63.5,78.8 L60.8,78.8 L60.8,82.5 L59.5,82.5 Z M60.8,76.1 L60.8,77.8 L64,77.8 C64.6,77.8 65,77.4 65,76.95 C65,76.5 64.6,76.1 64,76.1 Z"
+        android:fillColor="#121212" />
+    <!-- E -->
+    <path
+        android:pathData="M68,75 L73.2,75 L73.2,76.1 L69.3,76.1 L69.3,78.2 L72.7,78.2 L72.7,79.3 L69.3,79.3 L69.3,81.4 L73.2,81.4 L73.2,82.5 L68,82.5 Z"
+        android:fillColor="#121212" />
+
+    <!-- Gold accent baseline -->
+    <path
+        android:pathData="M27.5,85.5 L73.2,85.5"
+        android:strokeColor="#D4AF37"
+        android:strokeWidth="0.8" />
+</vector>

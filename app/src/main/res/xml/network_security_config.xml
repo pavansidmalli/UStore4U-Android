@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Strict global policy: Block all unencrypted HTTP cleartext traffic -->
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+
+    <!-- Specific configuration for UStore4U and WooCommerce API domains -->
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">ustore4u.com</domain>
+        <domain includeSubdomains="true">wp.com</domain>
+        <domain includeSubdomains="true">woocommerce.com</domain>
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </domain-config>
+</network-security-config>
